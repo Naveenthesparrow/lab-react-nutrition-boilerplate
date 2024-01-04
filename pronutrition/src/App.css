@@ -1,0 +1,55 @@
+.foodBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+  left: 160px;
+}
+.searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+h1 {
+  padding: 10px;
+}
+.foodBox img {
+  height: 100px;
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.calorie {
+  padding: 20px;
+}
+
+button {
+  padding: 7px;
+}
+
+.reset {
+  color: purple;
+  background: white;
+  border: 1px solid purple;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.searchbox {
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 1rem;
+}
